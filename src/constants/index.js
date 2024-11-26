@@ -12,17 +12,17 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
+    threejs,
     docker,
     python,
     c,
  
     gesene,
 
-    carrent,
+
     jobit,
     tripguide,
-    threejs,
+    ecommerce,
   } from "../assets";
   
   export const navLinks = [
@@ -160,11 +160,11 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: ecommerce,
       source_code_link: "https://github.com/MariaM0ura/E-commerce",
     },
     {
-      name: "Job IT",
+      name: "Guia Press",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
@@ -182,7 +182,7 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/MariaM0ura/GuiaPress",
     },
     {
       name: "Trip Guide",

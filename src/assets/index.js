@@ -28,6 +28,7 @@ import gesene from "./company/gesene.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import ecommerce from "./ecommerce1.png";
 
 export {
   logo,
@@ -57,7 +58,7 @@ export {
 
   gesene,
 
-  carrent,
+  ecommerce,
   jobit,
   tripguide,
 };
