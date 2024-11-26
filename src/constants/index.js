@@ -8,13 +8,14 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
     docker,
+    python,
+    c,
  
     gesene,
 
@@ -80,8 +81,12 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Python",
+      icon: python,
+    },    
+    {
+      name: "C++",
+      icon: c,
     },
     {
       name: "Tailwind CSS",
@@ -104,13 +109,10 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
       name: "docker",
       icon: docker,
     },
+
   ];
   
   const experiences = [

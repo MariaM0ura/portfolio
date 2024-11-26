@@ -16,10 +16,12 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import c from "./tech/c++.png";
+import nextjs from "./tech/nextjs.png";
 
 import gesene from "./company/gesene.png";
 
@@ -36,6 +38,7 @@ export {
   github,
   menu,
   close,
+  
   css,
   docker,
   figma,
@@ -45,13 +48,14 @@ export {
   mongodb,
   nodejs,
   reactjs,
-  redux,
+  c,
+  nextjs,
+  python,
   tailwind,
   typescript,
   threejs,
 
   gesene,
-
 
   carrent,
   jobit,
