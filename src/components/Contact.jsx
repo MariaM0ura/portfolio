@@ -1,6 +1,8 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import { Alert, AlertTitle } from '@mui/material';
+
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -16,6 +18,7 @@ const Contact = () => {
   });
 
   const [loading, setLoading] = useState(false);
+  const [alert, setAlert] = useState({show: false, type: "", message: ""});
 
   const handleChange = (e) => {
     const { target } = e;
@@ -47,13 +50,27 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
+          alert({
+            show: true,
+            type: "success",
+            message: "Thank you. I will get back to you as soon as possible.",
+          });
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+          console.error(error);
           alert("Thank you. I will get back to you as soon as possible.");
 
           setForm({
             name: "",
             email: "",
             message: "",
-          });
+          }); 
         },
         (error) => {
           setLoading(false);
