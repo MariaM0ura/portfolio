@@ -13,15 +13,17 @@ import {
     mongodb,
     git,
     threejs,
-    docker,
+    opencv,
     python,
     c,
+    machineLearning,
  
     gesene,
+    tail,
 
 
     jobit,
-    tripguide,
+    snakegame,
     ecommerce,
   } from "../assets";
   
@@ -89,8 +91,8 @@ import {
       icon: c,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "opencv",
+      icon: opencv,
     },
     {
       name: "Node JS",
@@ -109,8 +111,8 @@ import {
       icon: git,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Machine Learning",
+      icon: machineLearning,
     },
 
   ];
@@ -128,6 +130,19 @@ import {
         "Collaborating with multidisciplinary teams to reference academic articles and present research data in an accessible manner.",
         "Implementing multilingual support on the platform, enabling accessibility for users from diverse linguistic backgrounds.",
       ], 
+    },
+    {
+      title: "Student Member",
+      company_name: "TAIL - Technology and Artificial Intelligence League",
+      icon: tail,
+      iconBg: "#E6DEDD",
+      date: "Jul 2023 - Present",
+      points: [
+        "Developed an innovative platform combining ChatGPT and Stable Diffusion to generate 'infinite zoom' art.",
+        "Enabled users to create detailed images from textual and visual inputs, providing an immersive art exploration experience.",
+        "Analyzed public safety in São Paulo using public data and classified credit card fraud with synthetic data.",
+        "Conducted data cleaning, exploratory analysis, and applied machine learning algorithms for pattern and anomaly detection.",
+      ],
     }
   ];
   
@@ -169,15 +184,15 @@ import {
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Restapi",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
@@ -185,25 +200,25 @@ import {
       source_code_link: "https://github.com/MariaM0ura/GuiaPress",
     },
     {
-      name: "Trip Guide",
+      name: "Snake Game with OpenCV Hand Detection",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Control a snake with hand gestures tracked by OpenCV. Use your index finger to collect apples and avoid collisions.",
       tags: [
         {
-          name: "nextjs",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "OpenCV",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Computer Vision",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: snakegame,
+      source_code_link: "https://github.com/MariaM0ura/Snake-Game-with-OpenCV-Hand-Detection",
     },
   ];
   

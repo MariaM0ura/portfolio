@@ -8,7 +8,6 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -22,13 +21,16 @@ import threejs from "./tech/threejs.svg";
 import python from "./tech/python.png";
 import c from "./tech/c++.png";
 import nextjs from "./tech/nextjs.png";
+import machineLearning from "./tech/machineLearning.png";
+import opencv from "./tech/opencv.png";
 
 import gesene from "./company/gesene.png";
+import tail from "./company/tailufpbLogo.png"
 
-import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import ecommerce from "./ecommerce1.png";
+import snakegame from "./snakeGame.png";
 
 export {
   logo,
@@ -41,7 +43,7 @@ export {
   close,
   
   css,
-  docker,
+  opencv,
   figma,
   git,
   html,
@@ -55,10 +57,13 @@ export {
   tailwind,
   typescript,
   threejs,
+  machineLearning,
 
   gesene,
+  tail,
 
   ecommerce,
   jobit,
   tripguide,
+  snakegame
 };
